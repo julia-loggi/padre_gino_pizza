@@ -1,5 +1,5 @@
-import { useEffect, useState, useContext } from "react";
-import { createLazyFileRoute, createRoute } from "@tanstack/react-router";
+import { useContext, useEffect, useState } from "react";
+import { createLazyFileRoute } from "@tanstack/react-router";
 
 import Pizza from "../Pizza.jsx";
 import Cart from "../Cart.jsx";
